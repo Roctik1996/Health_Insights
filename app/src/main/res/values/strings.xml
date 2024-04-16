@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Health Insights</string>
+    <string name="txt_permission_title">We need access to your Health &amp; Activity data</string>
+    <string name="txt_permission_desc">To provide you with a personalized and rewarding health experience, we request your permission to access your health and activity data.\nThis data will be used for:
+        \n\t-Visualizations
+        \n\t-Progress tracking
+        \n\t-Personalized recommendations within the app.\nEnable access to your health data now.</string>
+    <string name="txt_go_to_permission">Go to Permission</string>
+    <string name="label_permissions_required">Permissions required</string>
+    <string name="label_permission_need_desk">This app requires permissions to function correctly. Please go to the app settings to manually enable the permissions.</string>
+    <string name="label_go_to_settings">Go to settings</string>
+    <string name="label_cancel">Cancel</string>
+    <string name="label_my_steps">My Steps</string>
+    <string name="label_distance">Distance</string>
+    <string name="label_time_in_bed">Time In Bed</string>
+    <string name="label_calories_burned">Calories Burned</string>
+    <string name="label_total_activity">Total Activity</string>
+    <string name="label_unit_steps_day">steps/day</string>
+    <string name="label_unit_km_day">km/day</string>
+    <string name="label_unit_daily_sleep_time">daily sleep time</string>
+    <string name="label_unit_kcal_day">kcal/day</string>
+    <string name="label_unit_minutes_day">minutes/day</string>
+    <string name="label_importing_health_data">Importing Health Data</string>
+    <string name="label_continue">Continue</string>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="8dp"
+    android:foreground="@drawable/custom_ripple"
+    android:background="@color/white">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/_16dp"
+        app:cardElevation="0dp"
+        app:cardBackgroundColor="@color/gray_800"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/lbl_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="@dimen/txt_16sp"
+                android:textStyle="bold"
+                tools:text="My steps" />
+
+            <TextView
+                android:id="@+id/lbl_activity_value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="@dimen/txt_24sp"
+                android:includeFontPadding="false"
+                android:gravity="center"
+                android:textStyle="bold"
+                tools:text="1000" />
+
+            <TextView
+                android:id="@+id/lbl_unit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                tools:text="steps/day" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
